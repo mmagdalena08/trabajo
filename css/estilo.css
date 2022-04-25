@@ -29,7 +29,7 @@ h2 {
 ul, li{
   display: inline-block;
   border: 1px;
-  padding: 4px;
+  padding: 3px;
   
   
 }
@@ -37,5 +37,30 @@ li:hover{
   background-color: yellow;
   color: gray;
   cursor: pointer;
+}
+#pie{
+  background-color: gray;
+  
+  text-align: center;
+  padding:20px ;
+  font: bold 14px verdana, sans-serif;
+  margin-top: 70px;
+}
+#seccion{
+  background-color: gray;
+  float: left;
+  width: 60%;
+  margin-top: 15px;
+  margin-left: 10px;
+  font: bold 12px verdana, sans-serif;
+ 
+}
+#columna{
+  background-color: rgb(184, 184, 184);
+  float: right;
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 10px;
 }
 
